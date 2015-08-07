@@ -1,7 +1,7 @@
 # Address Book using Silex and Twig
 Webpage where a user can enter contact information and make a list of contacts
 ## Installation
-Be sure to have composer installed and run the composer install command in the Code-Review-Silex-Twig directory in order to get the Silex and Twig vendor files.
+Be sure to have composer installed and run the composer install command while in the Code-Review-Silex-Twig directory in order to get the Silex and Twig vendor files.
 
 Then navigate to the Code-Review-Silex-Twig/web directory and enter php -S localhost:8000 in the terminal to start the php local server.
 
