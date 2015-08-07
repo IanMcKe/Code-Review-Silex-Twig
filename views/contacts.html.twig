@@ -9,9 +9,9 @@
                 <h1>Here are your contacts: </h1>
                 <ul>
                 {% for contact in contacts %}
-                    <h3>{{ contact.getName }}</h3>
-                    <li>{{ contact.getPhone }}</li>
-                    <li>{{ contact.getAddress }}</li>
+                        <h3>{{ contact.getName }}</h3>
+                        <li>{{ contact.getPhone }}</li>
+                        <li>{{ contact.getAddress }}</li>
                 {% endfor %}
                 </ul>
             {% else %}
@@ -28,6 +28,9 @@
                     <input id='address' name='address' class='form-control' type='text'>
                 </div>
                 <button type='submit' class='btn-success'>Create new contact</button>
+            </form>
+            <form action='/delete_last_contact' method ='post'>
+                <button type='submit' name='delete' value='delete' class='btn-default'>Clear last contact</button>
             </form>
             <form action='/delete_all_contacts' method='post'>
                 <button type='submit' class='btn-default'>Clear contacts</button>

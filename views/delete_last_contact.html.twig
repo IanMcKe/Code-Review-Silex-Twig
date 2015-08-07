@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Deleted last contact</title>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    </head>
+    <body>
+        <div class="container">
+            <h1>You removed:</h1>
+            <ul>
+                <h3>{{ deletedcontact.getName }}</h3>
+                <li>{{ deletedcontact.getPhone }}</li>
+                <li>{{ deletedcontact.getAddress }}</li>
+            <ul>
+            <form action='/'>
+                <button type='submit' class='btn-success'>Home</button>
+            </form>
+        </div>
+    </body>
+</html>
