@@ -58,6 +58,11 @@
         {
             $_SESSION['list_of_contacts'] = array();
         }
+/* Idea "deleteLast" a function that allows a user to delete the last entry in the session
+        static function deleteLast()
+        {
+            max($_SESSION['list_of_contacts']) = "";
+        }
+*/
     }
-
 ?>
