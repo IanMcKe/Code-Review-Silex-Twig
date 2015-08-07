@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Address Book</title>
@@ -11,6 +12,7 @@
                 {% for contact in contacts %}
                         <h3>{{ contact.getName }}</h3>
                         <li>{{ contact.getPhone }}</li>
+                        <li>{{ contact.getEmail }}</li>
                         <li>{{ contact.getAddress }}</li>
                 {% endfor %}
                 </ul>
@@ -23,7 +25,9 @@
                     <label for='name'>Contact Name:</label>
                     <input id='name' name='name' class='form-control' type='text'>
                     <label for='phone'>Contact Phone:</label>
-                    <input id='phone' name='phone' class='form-control' type='tel'>
+                    <input id='phone' name='phone' class='form-control' type='number'>
+                    <label for='email'>Contact Email:</label>
+                    <input id='email' name='email' class='form-control' type='email'>
                     <label for='address'>Contact Address:</label>
                     <input id='address' name='address' class='form-control' type='text'>
                 </div>
