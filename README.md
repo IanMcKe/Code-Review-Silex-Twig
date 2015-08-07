@@ -1,4 +1,4 @@
-# ${1:Address Book using Silex and Twig}
+# Address Book using Silex and Twig
 Webpage where a user can enter contact information and make a list of contacts
 ## Installation
 Be sure to have composer installed and run the composer install command in the Code-Review-Silex-Twig directory in order to get the Silex and Twig vendor files.
